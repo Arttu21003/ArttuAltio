@@ -11,4 +11,4 @@ jobs:
         run: |
          echo "Moi"
          echo "Tämä on Arttu"
-      - name: run date command
+      - name: run date command 
