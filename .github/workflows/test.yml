@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   run_command:
-    runs-on:
+    runs-on: ubuntu-latest
     steps:
       - name: run echo command
         run: echo "Moi"
