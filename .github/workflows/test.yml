@@ -1,0 +1,14 @@
+name: My first workflow
+on: [push]
+
+jobs:
+  run_command:
+    runs-on:
+    steps:
+      - name: run echo command
+        run: echo "Moi"
+      - name: run multiple commands
+        run: |
+         echo "Moi"
+         echo "Tämä on Arttu"
+      - name: run date command
