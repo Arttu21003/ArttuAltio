@@ -11,4 +11,3 @@ jobs:
         run: |
          echo "Moi"
          echo "Tämä on Arttu"
-      - name: run date command 
